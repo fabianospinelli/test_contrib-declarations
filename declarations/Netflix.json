@@ -1,0 +1,14 @@
+{
+  "name": "Netflix",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.netflix.com/legal/privacy",
+      "select": [
+        ".global-content > .container"
+      ],
+      "remove": [
+        ".breadcrumb-container"
+      ]
+    }
+  }
+}
