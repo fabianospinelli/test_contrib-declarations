@@ -4,8 +4,9 @@
     "Privacy Policy": {
       "fetch": "https://www.byd.com/en/privacy",
       "select": [
-        "p:nth-child(3)"
-      ]
+        ".rich-text-area"
+      ],
+      "executeClientScripts": true
     }
   }
 }
