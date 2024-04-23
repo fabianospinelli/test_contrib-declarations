@@ -1,0 +1,12 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.byd.com/en/privacy",
+      "select": [
+        ".rich-text-area"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
